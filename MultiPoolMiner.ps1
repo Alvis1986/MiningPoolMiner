@@ -81,7 +81,6 @@ $StatEnd = $Timer
 $DecayStart = $Timer
 $DecayPeriod = 60 #seconds
 $DecayBase = 1 - 0.1 #decimal percentage
-
 $WatchdogTimers = @()
 $ActiveMiners = @()
 $Rates = [PSCustomObject]@{BTC = [Double]1}
@@ -102,9 +101,9 @@ if ($AutoUpdate -and (Test-Path .\Updater.ps1)) {$Downloader = Start-Job -Initia
 
 #Set donation parameters
 $LastDonated = $Timer.AddDays(-1).AddHours(1)
-$WalletDonate = @("1Q24z7gHPDbedkaWDTFqhMF8g7iHMehsCb", "1Fonyo1sgJQjEzqp1AxgbHhGkCuNrFt6v9")[[Math]::Floor((Get-Random -Minimum 1 -Maximum 11) / 10)]
-$UserNameDonate = @("aaronsace", "fonyo")[[Math]::Floor((Get-Random -Minimum 1 -Maximum 11) / 10)]
-$WorkerNameDonate = "multipoolminer"
+$WalletDonate = @("1EC4NY1gHnaDZE57RNQgMe6pk4Pn2kpL9n", "1EC4NY1gHnaDZE57RNQgMe6pk4Pn2kpL9n")[[Math]::Floor((Get-Random -Minimum 1 -Maximum 11) / 10)]
+$UserNameDonate = @("Alvis1987", "Alvis1987")[[Math]::Floor((Get-Random -Minimum 1 -Maximum 11) / 10)]
+$WorkerNameDonate = "MultiPoolMiner"
 
 while ($true) {
     #Load the config
