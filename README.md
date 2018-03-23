@@ -1,5 +1,5 @@
-# MultiPoolMiner
-###### created by aaronsace 
+# MiningPoolMiner
+###### created by alvis1986 
 ###### **WEBSITE: [MultiPoolMiner.io](https://multipoolminer.io)**
 ###### **GITHUB: [https://github.com/MultiPoolMiner/](https://github.com/MultiPoolMiner/MultiPoolMiner/releases)**
 ###### **REDDIT: [/r/multipoolminer/](https://www.reddit.com/r/multipoolminer/)**
