@@ -6,7 +6,7 @@ if ($script:MyInvocation.MyCommand.Path) {Set-Location (Split-Path $script:MyInv
 
 $ProgressPreferenceBackup = $ProgressPreference
 
-$Name = "MultiPoolMiner"
+$Name = "MiningPoolMiner"
 try {
     $ProgressPreference = "SilentlyContinue"
     $Request = Invoke-RestMethod -Uri "https://api.github.com/repos/multipoolminer/$Name/releases/latest" -UseBasicParsing -TimeoutSec 10 -ErrorAction Stop
