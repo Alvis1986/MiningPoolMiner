@@ -81,6 +81,7 @@ $StatEnd = $Timer
 $DecayStart = $Timer
 $DecayPeriod = 60 #seconds
 $DecayBase = 1 - 0.1 #decimal percentage
+-
 $WatchdogTimers = @()
 $ActiveMiners = @()
 $Rates = [PSCustomObject]@{BTC = [Double]1}
