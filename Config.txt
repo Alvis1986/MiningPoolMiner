@@ -11,15 +11,8 @@
       "Worker": "$WorkerName",
       "API_ID": "$API_ID",
       "API_Key": "$API_Key"
-    },
-    "NiceHash": {
-      "BTC": "$Wallet",
-      "Worker": "$WorkerName"
-    },
-    "Zpool": {
-      "BTC": "$Wallet",
-      "Worker": "$WorkerName"
     }
+    
   },
   "Miners": {
   },
