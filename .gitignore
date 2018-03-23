@@ -1,9 +1,0 @@
-bin/
-stats/
-logs/
-wrapper/
-downloads/
-*.zip
-*.7z
-*.rar
-Pools/MiningDutch.ps1
