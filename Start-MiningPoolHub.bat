@@ -6,7 +6,7 @@ setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
-set "command=& .\miningpoolminer.ps1 -wallet 1EC4NY1gHnaDZE57RNQgMe6pk4Pn2kpL9n -username alvis1987 -workername miningpoolminer -region europe -currency btc,usd,eur -type amd,nvidia,cpu -poolname miningpoolhub,miningpoolhubcoins -algorithm cryptonight,ethash,ethash2gb,equihash,groestl,lyra2re2,lyra2z,neoscrypt -donate 24 -watchdog -minerstatusurl https://multipoolminer.io/monitor/miner.php -switchingprevention 2"
+set "command=& .\miningpoolminer.ps1 -wallet 1EC4NY1gHnaDZE57RNQgMe6pk4Pn2kpL9n -username alvis1987 -workername miningpoolminer -region usa -currency usd -type nvidia -poolname miningpoolhub,miningpoolhubcoins -algorithm equihash,lyra2re2 -donate 24 -watchdog -minerstatusurl https://multipoolminer.io/monitor/miner.php -switchingprevention 2"
 
 start pwsh -noexit -executionpolicy bypass -command "& .\reader.ps1 -log 'MultiPoolMiner_\d\d\d\d-\d\d-\d\d\.txt' -sort '^[^_]*_' -quickstart"
 
